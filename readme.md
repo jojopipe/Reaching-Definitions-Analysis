@@ -5,7 +5,7 @@ The following program\
 ![example program](data1_program.png "example program")\
 has the following control flow graph\
 ![example graph](data1_graph.png "example graph")\
-and is thus encoded as:\
+and is thus encoded as:
 ```
 8                   # number of blocks
 x y                 # variables
