@@ -6,7 +6,7 @@ performs a reaching definition analysis for a given program, that is encoded as 
 8                   # number of blocks
 x y                 # variables
 1 0 1 0 1 0 1 1     # does each block override a variable (0: no, 1: yes)
-x - y - y - x x     # which variables are overriden in each blcok
+x - y - y - x x     # which variables are overriden in each block
 1                   # blocks that are reachable from block 0
 2 7                 # blocks that are reachable from block 1
 3                   # blocks that are reachable from block 2
