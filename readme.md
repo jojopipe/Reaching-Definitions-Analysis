@@ -1,7 +1,11 @@
 # Reaching Definitions Analysis
-performs a reaching definition analysis for a given program, that is encoded as described below:
-
-## example data:
+Performs a reaching definition analysis for a given labeled program.
+## example:
+The following program\
+![example program](data1_program.png "example program")\
+has the following control flow graph\
+![example graph](data1_graph.png "example graph")\
+and is thus encoded as:\
 ```
 8                   # number of blocks
 x y                 # variables
@@ -16,3 +20,4 @@ x - y - y - x x     # which variables are overriden in each block
 3                   # ...
 -                   # # blocks that are reachable from block 7
 ```
+The program expects data is this format, any changes will break it.
