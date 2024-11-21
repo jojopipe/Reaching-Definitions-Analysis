@@ -2,9 +2,9 @@
 Performs a reaching definition analysis for a given labeled program.
 ## example:
 The following program\
-![example program](data1_program.png "example program")\
+![example program](datasets/data1_program.png "example program")\
 has the following control flow graph\
-![example graph](data1_graph.png "example graph")\
+![example graph](datasets/data1_graph.png "example graph")\
 and is thus encoded as:
 ```
 8                   # number of blocks

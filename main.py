@@ -134,6 +134,7 @@ def kleene_iterations(N, x):
 
 def print_kleene(gs):
     empty = "∅"
+    unknown = "?"
     for a, elem in enumerate(gs):
         output = f"{a}: "
         for set in elem:
@@ -145,7 +146,7 @@ def print_kleene(gs):
                 if type(vb) != VBPair:
                     continue
                 name = vb.variable.name
-                label = vb.block_label
+                label = vb.block_label if vb.block_label != -1 else "?"
                 output += f"({name}, {label}), "
             output = output[:-2]
             output += "},    "
